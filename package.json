@@ -1,0 +1,22 @@
+{
+  "name": "ip-address-tracker-master",
+  "version": "1.0.0",
+  "description": "IP adress tracker",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel --open",
+    "build": "parcel build",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+  },
+  "author": "busydayhuh",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "ymaps": "^0.2.1"
+  }
+}
